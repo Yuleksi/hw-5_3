@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin:200px;
+    padding: 10px;
+    outline: 1px solid gray;
+}
+
+.columns_item{
+    flex-basis: 20%;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 0;
+}
+
+
+.item{
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 20px;
+    font-size: 25px;
+    flex-basis: 200px;
+    flex-shrink: unset;
+    flex-grow: unset;
+    height: 300px;
+
+}
+
+.list {
+    color: lightgray;
+    font-size: 20px;
+}
+
+hr {
+    color: lightgrey;
+    width: 110%;
+}
